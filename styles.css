@@ -1,0 +1,204 @@
+/* Seccion general */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root{
+   --bg-color:#0f151a;
+    --text-color:#ffffff;
+    --main-color:#f53fa1;
+    --other-color:#00ecff;
+    --h1-font:4.1rem;
+}
+
+body{
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    background-image: url(imgs/wp10486506.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    gap: 30px;
+    overflow-x:hidden;
+    margin: 0; 
+}
+
+/* Seccion Navbar */
+.navbar{
+    padding: 2rem;
+    background-color: transparent;
+    
+}
+
+.navbar a{
+    color: var(--text-color);
+    margin-right: 10rem;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .55s ease;
+
+}
+
+.navbar a:hover{
+    color: var(--other-color);
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact a{
+    display: flex;
+    text-transform: uppercase;
+    color: var(--other-color);
+    transition: all .55s ease;
+}
+
+.contact a:hover{
+color: var(--text-color);
+}
+
+/* Seccion hero */
+
+.hero {
+    color: var(--text-color);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img img{
+    border-radius: 50%;
+    border: 12px solid white;
+}
+
+.hero-texto span{
+padding: 11px 18px;
+background-color: #4c1432;
+border-radius: 10px;
+color: var(--main-color);
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+
+.hero-texto h1{
+    font-size: var(--h1-font);
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 22px 0;
+}
+
+.hero-texto p{
+    width: 100%;
+    max-width: 400px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+/* logos de gaming */
+
+.iconos-game i{
+    height: 45px;
+    width: 45px;
+    background:var(--main-color);
+    color: #4c1432;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    border-radius: 12px;
+    margin-right: 18px;
+    margin-bottom: 50px;
+    transition: all .55s ease;
+}
+
+.iconos-game i:hover{
+    background-color: #4c1432;
+    color: var(--main-color);
+    transform: scale(1.09);
+}
+
+/* links para gaming */
+
+.btnn {
+    color: white;
+    background-color: #4c1432;
+    border-radius: 25px; 
+    border: 1px solid transparent;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    transition: all ease .55s;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btnn:hover{
+background-color: #4c1432;
+color: var(--main-color);
+}
+
+.btnn2{
+    color: white;
+    text-decoration: none;
+    transition: all ease .55s;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 25px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    background-color: #4c1432;
+    border-radius: 25px; 
+    border: 1px solid transparent;
+    padding: 12px 16px;
+}
+
+.btnn2:hover{
+    color:var(--main-color);
+    background-color: #4c1432;
+}
+
+/* Scrollbars */
+/* Define the styles for the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff00ff; /* Neon color for the thumb on hover */
+  }
+  
+  /* Define the styles for the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Color of the track */
+  }
+  
+  /* Define the styles for the scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--other-color); /* Neon color for the thumb */
+    border-radius: 6px; /* Set the border radius to make it round */
+    border: 3px solid #333; /* Border color and width */
+  }
+  
+  /* Define the styles for the scrollbar corner */
+  ::-webkit-scrollbar-corner {
+    background: #333; /* Color of the corner */
+  }
+  
